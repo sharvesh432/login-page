@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: 'poppins, sans-serif';
+    height: 100vh;
+    background: linear-gradient(135deg, #0a192f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Glass effect card */
+
+.conatiner{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    width: 320px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 300px;
+}
+
+h2{
+    color: #ccd6f6;
+}
+
+p{
+    color: #8892b0;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: solid;
+    border-color: #ccd6f6 ;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px, black;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background: #ffd60a;
+    border: none;
+    border-radius: 10px;
+}
