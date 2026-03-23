@@ -10,14 +10,24 @@ body{
 
 /* Glass effect card */
 
-.conatiner{
+.container{
     background: rgba(255, 255, 255, 0.1);
     padding: 40px;
-    width: 320px;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
     border-radius: 20px;
     backdrop-filter: blur(10px);
     text-align: center;
-    width: 300px;
+}
+
+@media(max-width:600px){
+    .container{
+        padding: 20px;
+    }
+    h2{
+        font-size: 20px;
+    }
 }
 
 h2{
